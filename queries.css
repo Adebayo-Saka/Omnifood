@@ -1,0 +1,378 @@
+@media (max-width: 84em) {
+  .container {
+    max-width: 110rem;
+  }
+}
+
+@media (max-width: 74em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 95rem;
+    gap: 4.6rem;
+  }
+  .logos img {
+    height: 2.6rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .heading-tertiary {
+    font-size: 2.6rem;
+  }
+  .step-number {
+    font-size: 7rem;
+  }
+  .subheading {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 63em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 90rem;
+    gap: 4.6rem;
+  }
+  html {
+    font-size: 53.125%;
+  }
+  .header div {
+    max-width: 90rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .heading-secondary {
+    font-size: 3.55rem;
+  }
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+  .step-number {
+    font-size: 7rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .delivered-meals {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .meal-attribute {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .hero,
+  .container,
+  .header div {
+    max-width: 80rem;
+    gap: 4.6rem;
+  }
+  .cta-image-box {
+    background-size: cover;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .heading-secondary {
+    line-height: 1;
+  }
+
+  .cta-form button {
+    margin-top: 2rem;
+  }
+  .main-nav {
+    background-color: #fdf2e9;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 6.4rem;
+
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .header-li {
+    font-size: 3rem;
+  }
+  .header-ul {
+    flex-direction: column;
+
+    gap: 8rem;
+  }
+  .header-button:hover {
+    color: #fff;
+    padding: 1.2rem 2.6rem;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu"] {
+    display: none;
+  }
+
+  .main-nav p {
+    font-size: 3rem;
+  }
+  .meal-attribute {
+    font-size: 2rem;
+  }
+  .grid--2-cools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .list {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}
+@media (max-width: 43em) {
+  .section-cook {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-image-box {
+    height: 50rem;
+    grid-row: 1;
+    border-top-left-radius: 9px;
+  }
+  .cta-textbox h2 {
+    margin-top: -2.5rem;
+  }
+  .cta-textbox {
+    padding: 3.2rem;
+  }
+
+  .section-cta {
+    padding: 7.6rem 0 6rem 0;
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .hero,
+  .container,
+  .header div {
+    max-width: 75rem;
+    gap: 4.6rem;
+  }
+}
+@media (max-width: 38em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 70rem;
+    gap: 4.6rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 63rem;
+    gap: 4.6rem;
+  }
+  .delivered-meals {
+    margin-top: 4.2rem;
+  }
+  .grid--1-coools {
+    grid-template-columns: 1fr;
+  }
+  .logos img {
+    height: 2rem;
+  }
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+    margin-top: -5rem;
+  }
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+}
+
+@media (max-width: 29em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 55rem;
+    gap: 4.6rem;
+  }
+  .grid--1-cools {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 27em) {
+  .header div,
+  .container {
+    max-width: 50rem;
+    gap: 4.6rem;
+  }
+  .hero-img {
+    width: 65%;
+  }
+  .logos img {
+    height: 1.6rem;
+  }
+
+  footer {
+    padding: 0;
+  }
+}
+
+@media (max-width: 25em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 45rem;
+    gap: 4.6rem;
+  }
+}
+@media (max-width: 26em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 47rem;
+    gap: 4.6rem;
+  }
+}
+@media (max-width: 24em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 43rem;
+    gap: 4.6rem;
+  }
+  .logos img {
+    height: 1.4rem;
+  }
+}
+@media (max-width: 20em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 38rem;
+    gap: 4.6rem;
+  }
+  .logos img {
+    height: 1.2rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.6rem 2rem;
+  }
+}
+@media (max-width: 20em) {
+  .hero,
+  .container,
+  .header div {
+    max-width: 30rem;
+    gap: 4.6rem;
+  }
+  .delivered-meals {
+    align-items: center;
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+  .logos img {
+    height: 1rem;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .hero-img-box {
+    width: 110%;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+  .small-btn-resp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step-number {
+    font-size: 6rem;
+  }
+  .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .step-description {
+    font-size: 1.6rem;
+  }
+}
